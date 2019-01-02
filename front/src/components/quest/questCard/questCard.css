@@ -1,0 +1,22 @@
+.quest-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quest-card {
+  margin: 5px;
+  height: 125px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(34,36,38,.05);
+}
+
+.quest-card-header {
+  height: 65px;
+}
+
+.quest-card-title {
+  margin-left: 5px;
+}

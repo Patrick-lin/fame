@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+.game-header-placeholder {
+  height: 70px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.game-header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+  padding: 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.game-header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.game-header-user {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gold-text {
+  color: #f6b93b;
+}
+.fame-text {
+  color: #eb2f06;
+}
+.exp-text {
+  color: #1e3799;
+}
+
+.game-body {
+  display: flex;
+  margin-top: 10px;
+}
+
+.game-menu {
+  margin-right: 10px;
+}
+
+.game-content {
+  margin-right: 10px;
+}
+
+.rank-insignia {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.players {
+  margin-right: 15px;
+}
+
+.player-list {
+  width: 250px;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(34,36,38,.05);
+}
+.player-card {
+  padding: 10px;
+}
+.player-card:not(:last-child) {
+  border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.player-name {
+  font-weight: bold;
+}
+.player-fame {
+  margin-left: 5px;
+}
+.player-money {
+  margin-left: 5px;
+}
+
+.quests {
+  margin-top: 20px;
+}
+
+.dv-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dv-card {
+  margin: 5px;
+  /* height: 80px; */
+  width: 250px;
+  padding: 10px;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(34,36,38,.05);
+  cursor: pointer;
+}
+.dv-card:hover {
+  background-color: rgba(34,36,38,.15);
+}
+
+.dv-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wpn-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wpn-card {
+  margin: 5px;
+  /* height: 80px; */
+  width: 250px;
+  padding: 10px;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(34,36,38,.05);
+}
+
+.wpn-name {
+  font-weight: bold;
+}
+
+.hero-card {
+  margin: 5px;
+  width: 250px;
+  /* height: 120; */
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(34,36,38,.05);
+}
+
+.hero-card-segment {
+  border: none !important;
+  box-shadow: none !important;
+}
